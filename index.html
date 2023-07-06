@@ -78,21 +78,13 @@
             <h3>Code examples</h3>
             <pre>
     <code>
-        .logo {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-          }
-          
-          .promo {
-            position: relative;
-            height: 800px;
-            background-image: url("../img/bg.jpg");
-            background-position: top center;
-            padding-top: 76px;
-            margin-bottom: 57px;
-            box-sizing: border-box;
-          } 
+        const myButton = document.getElementById('myButton');
+
+const handleClick = (event) => {
+    console.log(myButton.classList)
+}
+
+myButton.addEventListener('click', handleClick);
     </code>
 </pre>
         </section>
